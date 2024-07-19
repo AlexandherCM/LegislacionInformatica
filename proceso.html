@@ -16,6 +16,31 @@
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
+    <style>
+        .step-card {
+            background-color: #ffffff; /* Fondo blanco para las tarjetas */
+            color: #343a40; /* Texto en gris oscuro para buen contraste */
+            padding: 2rem;
+            margin-bottom: 1rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+        }
+        .step-card h5 {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #4e73df; /* Resaltar el título con el color azul */
+        }
+        .step-card ul {
+            list-style: none;
+            padding: 0;
+        }
+        .step-card ul li {
+            margin-bottom: 1rem;
+        }
+        .step-card ul li strong {
+            color: #4e73df; /* Resaltar el texto importante con el color azul */
+        }
+    </style>
 </head>
 
 <body id="page-top">
@@ -76,7 +101,8 @@
                     <i class="fas fa-fw fa-wrench"></i>
                     <span>Ética y delitos informática</span>
                 </a>
-                <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+                <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
+                    data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <a class="collapse-item" href="utilities-color.html">Conceptos</a>
                         <a class="collapse-item" href="utilities-border.html">Características</a>
@@ -118,91 +144,56 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h5 mb-0 text-gray-900">1.2 Leyes nacionales e internacionales aplicables a los derechos de autor, privacidad y protección de datos</h1>
+                        <h1 class="h5 mb-0 text-gray-900">1.5 Proceso de elaboración de avisos de privacidad</h1>
                     </div>
 
                     <!-- Content Row -->
                     <div class="row">
-                        <!-- Derechos de Autor -->
                         <div class="col-lg-12 mb-4">
-                            <div class="card shadow mb-4">
-                                <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary text-center">DERECHOS DE AUTOR</h6>
-                                </div>
-                                <div class="card-body d-flex align-items-center">
-                                    <img class="img-fluid px-3 px-sm-4 mt-3 mb-3 mr-4" style="width: 30rem; height: 14.5rem;" src="img/ley-drechos.jpg" alt="Derechos de Autor">
-                                    <div>
-                                        <p><strong>Nacionales</strong></p>
-                                        <ul>
-                                            <li><strong>Ley de Propiedad Intelectual:</strong> Protege los derechos de los autores sobre sus obras literarias, artísticas o científicas.</li>
-                                            <li><strong>Copyright Act:</strong> Ley que regula los derechos de autor en los Estados Unidos, otorgando a los autores derechos exclusivos sobre sus obras.</li>
-                                        </ul>
-                                    </div>
-                                    <div>
-                                        <p><strong>Internacionales</strong></p>
-                                        <ul>
-                                            <li><strong>Convenio de Berna:</strong> Tratado internacional que establece la protección de las obras y los derechos de los autores en los países miembros.</li>
-                                            <li><strong>Acuerdo sobre los Aspectos de los Derechos de Propiedad Intelectual relacionados con el Comercio (ADPIC):</strong> Establece estándares mínimos para la protección de la propiedad intelectual en el comercio internacional.</li>
-                                        </ul>
-                                    </div>
-                                </div>
+                            <!-- Step Cards -->
+                            <div class="step-card">
+                                <h5>Identificación de Información Relevante</h5>
+                                <ul>
+                                    <li><strong>Recopilación de Datos:</strong> Determina qué datos personales se recopilan, cómo se usan, y con qué fines.</li>
+                                    <li><strong>Responsable del Tratamiento:</strong> Define quién será el responsable del tratamiento de los datos.</li>
+                                </ul>
                             </div>
-                        </div>
-                        
-                        <!-- Privacidad -->
-                        <div class="col-lg-12 mb-4">
-                            <div class="card shadow mb-4">
-                                <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary text-center">PRIVACIDAD</h6>
-                                </div>
-                                <div class="card-body d-flex align-items-center">
-                                    <img class="img-fluid px-3 px-sm-4 mt-3 mb-3 mr-4" style="width: 30rem; height: 14.5rem;" src="img/ley-privacidad.svg" alt="Derechos de Autor">
-                                    <div>
-                                        <p><strong>Nacionales</strong></p>
-                                        <ul>
-                                            <li><strong>Ley Orgánica de Protección de Datos Personales y Garantía de los Derechos Digitales (LOPDGDD):</strong> Regula el tratamiento de los datos personales y garantiza los derechos digitales de los ciudadanos.</li>
-                                            <li><strong>California Consumer Privacy Act (CCPA):</strong> Proporciona a los residentes de California derechos sobre sus datos personales, incluida la opción de conocer, acceder y eliminar la información que las empresas recopilan sobre ellos.</li>
-                                        </ul>
-                                    </div>
-                                    <div>
-                                        <p><strong>Internacionales</strong></p>
-                                        <ul>
-                                            <li><strong>Reglamento General de Protección de Datos (GDPR):</strong> Reglamento de la Unión Europea que establece normas sobre la protección de datos personales y la privacidad de los individuos.</li>
-                                            <li><strong>Convenio 108 del Consejo de Europa:</strong> Primer tratado internacional vinculante dedicado a la protección de las personas en relación con el tratamiento automatizado de datos personales.</li>
-                                        </ul>
-                                    </div>
-                                </div>
+                            <div class="step-card">
+                                <h5>Redacción del Aviso de Privacidad</h5>
+                                <ul>
+                                    <li><strong>Contenido Esencial:</strong> Incluye información sobre la identidad del responsable, las finalidades del tratamiento, los derechos de los titulares de los datos, y cómo pueden ejercer esos derechos.</li>
+                                    <li><strong>Lenguaje Claro:</strong> Utiliza un lenguaje claro y comprensible para que los titulares puedan entender el aviso fácilmente.</li>
+                                </ul>
                             </div>
-                        </div>
-                    
-                        <!-- Protección de Datos -->
-                        <div class="col-lg-12 mb-4">
-                            <div class="card shadow mb-4">
-                                <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary text-center">PROTECCIÓN DE DATOS</h6>
-                                </div>
-                                <div class="card-body d-flex align-items-center">
-                                    <img class="img-fluid px-3 px-sm-4 mt-3 mb-3 mr-4" style="width: 30rem; height: 14.5rem;" src="img/ley-datos.jpg" alt="Derechos de Autor">
-                                    <div>
-                                        <p><strong>Nacionales</strong></p>
-                                        <ul>
-                                            <li><strong>Ley Federal de Protección de Datos Personales en Posesión de los Particulares:</strong> Regula el tratamiento de los datos personales por parte de entidades privadas para garantizar la privacidad y el derecho a la autodeterminación informativa.</li>
-                                            <li><strong>Data Protection Act (DPA):</strong> Establece el marco legal para la protección de datos personales en el Reino Unido.
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div>
-                                        <p><strong>Internacionales</strong></p>
-                                        <ul>
-                                            <li><strong>Privacy Shield (EE.UU.-UE):</strong> Marco para regular la protección de datos transferidos entre la Unión Europea y los Estados Unidos, aunque fue invalidado en 2020, los principios siguen siendo una referencia importante.</li>
-                                            <li><strong>APEC Privacy Framework:</strong> Marco desarrollado por el Foro de Cooperación Económica Asia-Pacífico para ayudar a los países de la región a proteger los datos personales.</li>
-                                        </ul>
-                                    </div>
-                                </div>
+                            <div class="step-card">
+                                <h5>Revisión Legal</h5>
+                                <ul>
+                                    <li><strong>Cumplimiento Normativo:</strong> Asegúrate de que el aviso cumpla con las leyes y regulaciones locales de protección de datos.</li>
+                                    <li><strong>Consultas con Especialistas:</strong> Si es necesario, consulta con abogados especializados en protección de datos para validar el contenido.</li>
+                                </ul>
+                            </div>
+                            <div class="step-card">
+                                <h5>Implementación y Difusión</h5>
+                                <ul>
+                                    <li><strong>Accesibilidad:</strong> Asegúrate de que el aviso de privacidad esté fácilmente accesible para los titulares de los datos.</li>
+                                    <li><strong>Actualización:</strong> Mantén el aviso actualizado para reflejar cualquier cambio en las prácticas de tratamiento de datos o en la legislación aplicable.</li>
+                                </ul>
+                            </div>
+                            <div class="step-card">
+                                <h5>Capacitación</h5>
+                                <ul>
+                                    <li><strong>Entrenamiento Interno:</strong> Capacita al personal sobre la importancia del aviso de privacidad y cómo deben manejar los datos personales en cumplimiento con el aviso.</li>
+                                </ul>
+                            </div>
+                            <div class="step-card">
+                                <h5>Revisión y Auditoría</h5>
+                                <ul>
+                                    <li><strong>Revisión Periódica:</strong> Realiza revisiones periódicas del aviso de privacidad para asegurar que siga siendo relevante y conforme a la legislación.</li>
+                                    <li><strong>Auditorías:</strong> Realiza auditorías para verificar que el tratamiento de datos cumple con el aviso de privacidad y las normativas vigentes.</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
-                    
                     <!-- End Content Row -->
                 </div>
                 <!-- End of Page Content -->
