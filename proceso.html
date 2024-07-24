@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="utf-8">
@@ -39,6 +39,12 @@
         }
         .step-card ul li strong {
             color: #4e73df; /* Resaltar el texto importante con el color azul */
+        }
+        .step-card img {
+            width: 100%; /* Imagen responsiva */
+            height: auto; /* Mantener la proporción de la imagen */
+            max-width: 200px; /* Tamaño máximo para las imágenes */
+            margin-bottom: 1rem;
         }
     </style>
 </head>
@@ -90,7 +96,7 @@
                         <a class="collapse-item" href="leyes.html">Leyes</a>
                         <a class="collapse-item" href="tramites.html">Trámites y requisitos</a>
                         <a class="collapse-item" href="proceso.html">Proceso de trámite</a>
-                        <a class="collapse-item" href="elaboracion.html">Proceso de elaboración de avisos de privacidad</a>
+                        <a class="collapse-item" href="elaboracion.html">Avisos de privacidad</a>
                     </div>
                 </div>
             </li>
@@ -104,12 +110,22 @@
                 <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="utilities-color.html">Conceptos</a>
-                        <a class="collapse-item" href="utilities-border.html">Características</a>
-                        <a class="collapse-item" href="utilities-animation.html">Aspectos legales</a>
-                        <a class="collapse-item" href="utilities-other.html">Proceso de elaboración de códigos</a>
+                        <a class="collapse-item" href="definiciones.html">Conceptos</a>
+                        <a class="collapse-item" href="caracteristicas.html">Características</a>
+                        <a class="collapse-item" href="aspectos.html">Aspectos legales</a>
+                        <a class="collapse-item" href="procesoCodigos.html">Elaboración de códigos</a>
                     </div>
                 </div>
+            </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item active">
+                <a class="nav-link" href="conclusiones.html">
+                    <i class=""></i>
+                    <span>Conclusiones</span></a>
             </li>
 
             <!-- Sidebar Toggler (Sidebar) -->
@@ -144,7 +160,7 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h5 mb-0 text-gray-900">1.5 Proceso de elaboración de avisos de privacidad</h1>
+                        <h1 class="h5 mb-0 text-gray-900">1.4 Proceso de trámite de registro de obras ante la institución de derechos de autor</h1>
                     </div>
 
                     <!-- Content Row -->
@@ -152,44 +168,45 @@
                         <div class="col-lg-12 mb-4">
                             <!-- Step Cards -->
                             <div class="step-card">
-                                <h5>Identificación de Información Relevante</h5>
+                                <img src="img/preparacion-documentos.svg" alt="Preparación de Documentos">
+                                <h5>Preparación de documentos</h5>
                                 <ul>
-                                    <li><strong>Recopilación de Datos:</strong> Determina qué datos personales se recopilan, cómo se usan, y con qué fines.</li>
-                                    <li><strong>Responsable del Tratamiento:</strong> Define quién será el responsable del tratamiento de los datos.</li>
+                                    <li><strong>Recopilación de documentos:</strong> Reunir toda la documentación necesaria, incluyendo una copia de la obra, un formulario de solicitud, y cualquier otro documento requerido por la institución.</li>
                                 </ul>
                             </div>
                             <div class="step-card">
-                                <h5>Redacción del Aviso de Privacidad</h5>
+                                <img src="img/solicitud.jpg" alt="Solicitud">
+                                <h5>Solicitud</h5>
                                 <ul>
-                                    <li><strong>Contenido Esencial:</strong> Incluye información sobre la identidad del responsable, las finalidades del tratamiento, los derechos de los titulares de los datos, y cómo pueden ejercer esos derechos.</li>
-                                    <li><strong>Lenguaje Claro:</strong> Utiliza un lenguaje claro y comprensible para que los titulares puedan entender el aviso fácilmente.</li>
+                                    <li><strong>Completar y presentar:</strong> Completar y presentar la solicitud de registro, junto con la documentación necesaria, a la institución de derechos de autor correspondiente.</li>
                                 </ul>
                             </div>
                             <div class="step-card">
-                                <h5>Revisión Legal</h5>
+                                <img src="img/pago-tarifas.svg" alt="Pago de Tarifas">
+                                <h5>Pago de Tarifas</h5>
                                 <ul>
-                                    <li><strong>Cumplimiento Normativo:</strong> Asegúrate de que el aviso cumpla con las leyes y regulaciones locales de protección de datos.</li>
-                                    <li><strong>Consultas con Especialistas:</strong> Si es necesario, consulta con abogados especializados en protección de datos para validar el contenido.</li>
+                                    <li><strong>Abono de tarifas:</strong> Abonar las tarifas de registro establecidas por la institución para el procesamiento de la solicitud.</li>
                                 </ul>
                             </div>
                             <div class="step-card">
-                                <h5>Implementación y Difusión</h5>
+                                <img src="img/revision-evaluacion.svg" alt="Revisión y Evaluación">
+                                <h5>Revisión y Evaluación</h5>
                                 <ul>
-                                    <li><strong>Accesibilidad:</strong> Asegúrate de que el aviso de privacidad esté fácilmente accesible para los titulares de los datos.</li>
-                                    <li><strong>Actualización:</strong> Mantén el aviso actualizado para reflejar cualquier cambio en las prácticas de tratamiento de datos o en la legislación aplicable.</li>
+                                    <li><strong>Revisión de documentos:</strong> La institución revisará la solicitud y la documentación presentada para asegurar que todo esté en orden.</li>
                                 </ul>
                             </div>
                             <div class="step-card">
-                                <h5>Capacitación</h5>
+                                <img src="img/emision-certificado.jpg" alt="Emisión de Certificado">
+                                <h5>Emisión de Certificado</h5>
                                 <ul>
-                                    <li><strong>Entrenamiento Interno:</strong> Capacita al personal sobre la importancia del aviso de privacidad y cómo deben manejar los datos personales en cumplimiento con el aviso.</li>
+                                    <li><strong>Protección legal:</strong> Una vez aprobado el registro, se emitirá un certificado de registro de derechos de autor que otorga protección legal a la obra.</li>
                                 </ul>
                             </div>
                             <div class="step-card">
-                                <h5>Revisión y Auditoría</h5>
+                                <img src="img/registro-base-datos.svg" alt="Registro en Base de Datos">
+                                <h5>Registro en base de datos</h5>
                                 <ul>
-                                    <li><strong>Revisión Periódica:</strong> Realiza revisiones periódicas del aviso de privacidad para asegurar que siga siendo relevante y conforme a la legislación.</li>
-                                    <li><strong>Auditorías:</strong> Realiza auditorías para verificar que el tratamiento de datos cumple con el aviso de privacidad y las normativas vigentes.</li>
+                                    <li><strong>Incorporación:</strong> La obra se incorporará a la base de datos de la institución de derechos de autor, donde quedará registrada oficialmente.</li>
                                 </ul>
                             </div>
                         </div>

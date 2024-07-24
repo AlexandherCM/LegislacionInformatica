@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,19 +12,24 @@
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link
-        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
 
     <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
+    <style>
+        .step-card img {
+            width: auto; /* Mantener proporciones */
+            height: 150px; /* Tamaño fijo para las imágenes */
+            max-width: 100%; /* Asegura que no exceda el contenedor */
+            margin: 0 auto 1rem; /* Centrar imagen y espacio debajo */
+            display: block; /* Asegura que la imagen se muestre como bloque */
+        }
 
-     <style>
-        .card-body p {
-            text-align: justify; /* Justificar el texto en los párrafos de las tarjetas */
+        .step-card p {
+            text-align: justify; /* Justificar el texto para mejor lectura */
+            margin-bottom: 1rem; /* Espacio debajo de los párrafos */
         }
     </style>
-
 </head>
 
 <body id="page-top">
@@ -103,7 +107,8 @@
             <li class="nav-item active">
                 <a class="nav-link" href="conclusiones.html">
                     <i class=""></i>
-                    <span>Conclusiones</span></a>
+                    <span>Conclusiones</span>
+                </a>
             </li>
 
             <!-- Sidebar Toggler (Sidebar) -->
@@ -121,19 +126,16 @@
 
                 <!-- Topbar -->
                 <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
-
                     <!-- Sidebar Toggle (Topbar) -->
                     <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
                         <i class="fa fa-bars"></i>
                     </button>
-                
+
                     <!-- Title -->
                     <div class="navbar-title mx-auto">
-                        <h5 class="font-weight-bold" style="font-family: 'Cinzel', serif; color: #343a40;">LEGISLACIÓN INFORMÁTICA</h5>
+                        <h5 class="font-weight-bold" style="font-family: 'Cinzel', serif; color: #343a40;">ÉTICA Y DELITOS INFORMÁTICOS</h5>
                     </div>
-                
                 </nav>
-                
                 <!-- End of Topbar -->
 
                 <!-- Begin Page Content -->
@@ -141,71 +143,52 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h5 mb-0 text-gray-900">1.1 Conceptos de derechos de autor, privacidad y protección de datos</h1>
+                        <h1 class="h5 mb-0 text-gray-900">2.3 Aspectos legales relacionados con delitos informáticos en México</h1>
                     </div>
 
                     <!-- Content Row -->
                     <div class="row">
-                        <div class="col-lg-6 mb-4">
-                            <!-- Illustrations -->
-                            <div class="card shadow mb-1">
+                        
+                        <!-- Aspectos Legales -->
+                        <div class="col-lg-12 mb-4">
+                            <div class="card shadow mb-4 step-card">
                                 <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary">DERECHOS DE AUTOR</h6>
+                                    <h6 class="m-0 font-weight-bold text-primary text-center">ASPECTOS LEGALES</h6>
                                 </div>
                                 <div class="card-body">
-                                    <div class="text-center">
-                                        <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem; height: 14.5rem;"
-                                            src="img/derechos-autor.svg" alt="...">
-                                    </div>
-                                    <p>Los derechos de autor son un conjunto de leyes que protegen las obras creativas, como libros, música, software y otras expresiones artísticas. 
-                                        Los autores y creadores obtienen el derecho exclusivo de usar, distribuir y reproducir su obra, generalmente por un periodo limitado.</p>
-                                </div>
-                            </div>
-                        </div>
-                    
-                        <div class="col-lg-6 mb-4">
-                            <!-- Illustrations -->
-                            <div class="card shadow mb-1">
-                                <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary">PRIVACIDAD</h6>
-                                </div>
-                                <div class="card-body">
-                                    <div class="text-center">
-                                        <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem; height: 14.5rem;"
-                                            src="img/Privacy policy-pana.svg" alt="...">
-                                    </div>
-                                    <p>La privacidad se refiere al derecho de las personas a controlar la información personal que comparten y cómo se utiliza. La legislación sobre 
-                                        privacidad tiene como objetivo proteger la información personal contra el uso indebido y asegurar que se maneje de manera responsable. </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 mb-4">
-                            <!-- Illustrations -->
-                            <div class="card shadow mb-1">
-                                <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary">PROTECCIÓN DE DATOS</h6>
-                                </div>
-                                <div class="card-body">
-                                    <div class="text-center">
-                                        <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem; height: 14.5rem;"
-                                            src="img/datos.jpg" alt="...">
-                                    </div>
-                                    <p>La protección de datos abarca las medidas y regulaciones destinadas a proteger la información personal almacenada y procesada por organizaciones. 
-                                        Incluye aspectos como la recopilación, almacenamiento, procesamiento y transferencia de datos personales. Las leyes de protección de datos imponen obligaciones a las organizaciones para garantizar la seguridad y confidencialidad de la información personal. </p>
+                                    <p><strong>Marco jurídico:</strong> En México, la legislación en materia de delitos informáticos se encuentra principalmente en el Código Penal Federal, que tipifica una serie de delitos relacionados con el uso indebido de sistemas informáticos y datos personales. Además, la Ley Federal de Protección de Datos Personales en Posesión de los Particulares establece las normativas para el manejo y protección de datos personales, creando un marco robusto para proteger la privacidad de los individuos.</p>
+                                    <img src="img/marco-juridico.svg" alt="Marco Jurídico">
+                                    <p><strong>Delitos tipificados:</strong> Los delitos informáticos en México incluyen, pero no se limitan a:</p>
+                                    <ul>
+                                        <li><strong>Acceso Indebido:</strong> Entrar a sistemas informáticos o redes sin autorización.</li>
+                                        <li><strong>Interferencia:</strong> Alterar, modificar, o destruir información o sistemas sin consentimiento.</li>
+                                        <li><strong>Fraude Electrónico:</strong> Uso de medios electrónicos para engañar y obtener beneficios económicos indebidos.</li>
+                                        <li><strong>Robo de Datos:</strong> Obtener, copiar o utilizar información personal o empresarial sin autorización.</li>
+                                        <li><strong>Delitos de Pornografía Infantil:</strong> Producción, distribución o posesión de contenido pornográfico que involucre menores de edad.</li>
+                                    </ul>
+                                    <img src="img/delitos-tipificado.jpg" alt="Delitos Tipificados">
+                                    <p><strong>Procedimiento legal:</strong> La denuncia de delitos informáticos comienza con la presentación de una querella ante las autoridades competentes, como la Fiscalía General de la República (FGR). Las investigaciones suelen ser conducidas por la Policía Cibernética, que cuenta con herramientas y técnicas especializadas para enfrentar estos delitos. El proceso judicial puede incluir la recopilación de pruebas digitales, la intervención de expertos en informática forense, y la presentación de evidencias en juicio. Las sanciones pueden variar desde multas hasta penas de prisión, dependiendo de la gravedad del delito.</p>
+                                    <img src="img/procedimiento-legal.jpg" alt="Procedimiento Legal">
+                                    <p><strong>Protección de datos personales:</strong> La Ley Federal de Protección de Datos Personales en Posesión de los Particulares tiene como objetivo garantizar la privacidad y seguridad de los datos personales. Esta ley establece los derechos de los individuos sobre sus datos, como el acceso, rectificación, cancelación y oposición (ARCO). También impone obligaciones a las entidades que manejan datos personales, como la implementación de medidas de seguridad para proteger la información contra accesos no autorizados.</p>
+                                    <img src="img/proteccion-datos.svg" alt="Protección de Datos Personales">
+                                    <p><strong>Cooperación internacional:</strong> Dado que los delitos informáticos a menudo cruzan fronteras, México participa en tratados y convenios internacionales para la cooperación en la lucha contra estos crímenes. Esto incluye la colaboración con organismos internacionales como INTERPOL y la ONU, así como con países aliados para compartir información y coordinar acciones judiciales y policiales.</p>
+                                    <img src="img/cooperacion-internacional.svg" alt="Cooperación Internacional">
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <!-- End of Content Row -->
+
                 </div>
-                <!-- /.container-fluid -->
+                <!-- End of Page Content -->
+
             </div>
             <!-- End of Main Content -->
 
             <!-- Footer -->
-            <footer class="sticky-footer bg-white">
+            <footer class="bg-white sticky-footer">
                 <div class="container my-auto">
-                    <div class="copyright text-center my-auto">
+                    <div class="text-center my-auto copyright">
                         <span>Legislación Informática</span>
                     </div>
                 </div>
@@ -232,13 +215,6 @@
 
     <!-- Custom scripts for all pages-->
     <script src="js/sb-admin-2.min.js"></script>
-
-    <!-- Page level plugins -->
-    <script src="vendor/chart.js/Chart.min.js"></script>
-
-    <!-- Page level custom scripts -->
-    <script src="js/demo/chart-area-demo.js"></script>
-    <script src="js/demo/chart-pie-demo.js"></script>
 
 </body>
 
